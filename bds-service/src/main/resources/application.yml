@@ -1,0 +1,26 @@
+server:
+  port: 8040
+
+
+spring:
+  application:
+    name: bds
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://106.12.208.53:3306/webuy_bds?useUnicode=true&characterEncoding=UTF-8&allowMutiQueries=true&serverTimezone=Asia/Shanghai
+    username: user01
+    password: ak402507979
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+mybatis:
+  mapper-locations: classpath*:config/mybatis/mapper/**/*.xml
+
+rocket-mq:
+  nameServer: 122.51.171.126:9876
+  local-cache-evict:
+    consumer-group: BDS_LOCAL_CHAHE_EVICT_CG
+    topic: LOCAL_CHAHE_EVICT_TOPIC
+    tag: BDS
