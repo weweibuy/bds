@@ -1,4 +1,4 @@
-package com.weweibuy.bds;
+package com.weweibuy.bds.repository;
 
 import com.weweibuy.bds.mapper.AreaMapper;
 import com.weweibuy.bds.model.po.Area;

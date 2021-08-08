@@ -1,6 +1,6 @@
 package com.weweibuy.bds.service;
 
-import com.weweibuy.bds.AreaRepository;
+import com.weweibuy.bds.repository.AreaRepository;
 import com.weweibuy.bds.api.model.AreaTypeEum;
 import com.weweibuy.bds.model.dto.ExcelAreaDTO;
 import com.weweibuy.bds.model.po.Area;
