@@ -11,5 +11,12 @@
 
     <artifactId>bds-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.weweibuy.framework</groupId>
+            <artifactId>common-feign</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

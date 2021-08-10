@@ -1,10 +1,12 @@
-package com.weweibuy.bds.api.model;
+package com.weweibuy.bds.api.model.dto;
 
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 /**
+ * 字典响应
+ *
  * @author durenhao
  * @date 2021/8/8 18:28
  **/

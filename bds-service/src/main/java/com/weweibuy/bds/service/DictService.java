@@ -1,6 +1,6 @@
 package com.weweibuy.bds.service;
 
-import com.weweibuy.bds.api.model.DictRespDTO;
+import com.weweibuy.bds.api.model.dto.DictRespDTO;
 import com.weweibuy.bds.repository.DictRepository;
 import com.weweibuy.framework.common.core.utils.BeanCopyUtils;
 import lombok.RequiredArgsConstructor;

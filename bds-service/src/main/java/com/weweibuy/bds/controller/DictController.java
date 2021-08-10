@@ -1,6 +1,6 @@
 package com.weweibuy.bds.controller;
 
-import com.weweibuy.bds.api.model.DictRespDTO;
+import com.weweibuy.bds.api.model.dto.DictRespDTO;
 import com.weweibuy.bds.service.DictService;
 import com.weweibuy.framework.common.core.model.dto.CommonDataResponse;
 import lombok.RequiredArgsConstructor;

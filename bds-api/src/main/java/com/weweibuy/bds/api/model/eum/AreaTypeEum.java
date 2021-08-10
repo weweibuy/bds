@@ -1,4 +1,4 @@
-package com.weweibuy.bds.api.model;
+package com.weweibuy.bds.api.model.eum;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
